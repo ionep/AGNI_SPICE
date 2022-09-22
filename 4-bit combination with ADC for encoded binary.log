@@ -1,0 +1,50 @@
+Circuit: * C:\Users\fsupreet\Downloads\DRAM-Voltage-Study-master (1)\DRAM-Voltage-Study-master\SPICE_circuit_model\4-bit combination with ADC for encoded binary.asc
+
+Veq2: Removing PWL point (5.99e-008,0)
+Veq1: Removing PWL point (5.99e-008,1.5)
+Vsn2: Removing PWL point (5.9e-008,2.9)
+Vra7: Removing PWL point (6e-008,0)
+Veq_b1: Removing PWL point (3.4e-008,1.5)
+Veq_b1: Removing PWL point (4.6e-008,0)
+Veq_bnot1: Removing PWL point (3.4e-008,0)
+Veq_bnot1: Removing PWL point (4.6e-008,1.5)
+Vsp2: Removing PWL point (1.91e-008,1.35)
+Vsp2: Removing PWL point (5.801e-008,0)
+Vra6: Removing PWL point (1.7e-008,0)
+Vsn5: Removing PWL point (1.91e-008,0)
+Vsn5: Removing PWL point (5.801e-008,1.35)
+Vra5: Removing PWL point (6e-008,0)
+Vra4: Removing PWL point (5.52e-008,2.9)
+Unknown node in .ic card: "bitline0" -- ignoring
+Unknown node in .ic card: "bitline1" -- ignoring
+Unknown node in .ic card: "mb1" -- ignoring
+WARNING: Node RA3 is floating.
+WARNING: Node RB3 is floating.
+
+Per .tran options, skipping operating point for transient analysis.
+
+bitline2: v(msb_2)=0.311448 at 4.734e-008
+bitline3: v(msb_3)=0.236152 at 4.734e-008
+cpvoltage: v(charge_pump)=0.364394 at 4.734e-008
+bitline1: v(msb_1)=0.352615 at 4.734e-008
+bitline4: v(msb_4)=0.129649 at 4.734e-008
+
+
+Date: Wed Sep 21 07:17:36 2022
+Total elapsed time: 2.144 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3148
+traniter = 3148
+tranpoints = 1364
+accept = 1326
+rejected = 38
+matrix size = 638
+fillins = 332
+solver = Normal
+Thread vector: 417.8/136.6[8] 56.2/28.1[8] 40.0/14.8[8] 13.5/7.6[5]  2592/500
+Matrix Compiler1: 123.26 KB object code size  107.2/45.7/[22.0]
+Matrix Compiler2: 87.18 KB object code size  38.6/33.0/[18.2]
+
