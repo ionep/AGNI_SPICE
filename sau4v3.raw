@@ -1,0 +1,305 @@
+M1 N076 sense_N 0 0 nmos45lp l=0.27um w=0.22um
+M2 bitline1_1 bitline0_1 N077 0 nmos45hp l=0.16um w={ntw}
+M3 bitline0_1 bitline1_1 N076 0 nmos45hp l=0.16um w={ntw}
+M4 bitline1_1 Eq bitline0_1 0 nmos45hp l=0.16um w={prentw}
+M5 bitline0_1 Eq VDDby2 0 nmos45hp l=0.16um w={prentw}
+M6 VDDby2 Eq bitline1_1 0 nmos45hp l=0.16um w={prentw}
+M7 sa1 ra0 N012 0 nmos45lp l=0.085um w=0.555um
+Cmbit1 N023 N025 24fF
+M8 N087 ra3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit2 mbz 0 24fF
+M9 N044 sense_p VDD VDD pmos45lp l=0.27um w=0.22um
+M10 bitline1_1 bitline0_1 N053 VDD pmos45hp l=0.16um w={tw}
+M11 bitline0_1 bitline1_1 N044 VDD pmos45hp l=0.16um w={tw}
+Cmbit3 sa1 0 0.5625fF
+Cmbit4 N064 0 0.5625fF
+R1 sa1 bitline0_1 39
+R2 bitline1_1 N064 39
+R3 0 N025 30000
+R4 N012 N023 1000
+R5 N064 N087 1000
+R6 N053 N044 25000
+R7 N077 N076 25000
+M12 bitline0_1 EqNot VDDby2 VDD pmos45hp l=0.16um w={pretw}
+M13 VDDby2 EqNot bitline1_1 VDD pmos45hp l=0.16um w={pretw}
+M14 N084 sense_N 0 0 nmos45lp l=0.27um w=0.22um
+M15 bitline1_2 bitline0_2 N085 0 nmos45hp l=0.16um w={ntw}
+M16 bitline0_2 bitline1_2 N084 0 nmos45hp l=0.16um w={ntw}
+M17 bitline1_2 Eq bitline0_2 0 nmos45hp l=0.16um w={prentw}
+M18 bitline0_2 Eq VDDby2 0 nmos45hp l=0.16um w={prentw}
+M19 VDDby2 Eq bitline1_2 0 nmos45hp l=0.16um w={prentw}
+M20 sa2 ra0 N020 0 nmos45lp l=0.085um w=0.555um
+Cmbit5 mb2 N032 24fF
+M21 N090 ra3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit6 mbz 0 24fF
+M22 N050 sense_p VDD VDD pmos45lp l=0.27um w=0.22um
+M23 bitline1_2 bitline0_2 N057 VDD pmos45hp l=0.16um w={tw}
+M24 bitline0_2 bitline1_2 N050 VDD pmos45hp l=0.16um w={tw}
+Cmbit7 sa2 0 0.5625fF
+R8 sa2 bitline0_2 39
+R9 bitline1_2 N060 39
+R10 0 N032 30000
+R11 N020 mb2 1000
+R12 N060 N090 1000
+R13 N057 N050 25000
+R14 N085 N084 25000
+M25 bitline0_2 EqNot VDDby2 VDD pmos45hp l=0.16um w={pretw}
+M26 VDDby2 EqNot bitline1_2 VDD pmos45hp l=0.16um w={pretw}
+M27 N069 sense_N 0 0 nmos45lp l=0.27um w=0.22um
+M28 bitline1_3 bitline0_3 N070 0 nmos45hp l=0.16um w={ntw}
+M29 bitline0_3 bitline1_3 N069 0 nmos45hp l=0.16um w={ntw}
+M30 bitline1_3 Eq bitline0_3 0 nmos45hp l=0.16um w={prentw}
+M31 bitline0_3 Eq VDDby2 0 nmos45hp l=0.16um w={prentw}
+M32 VDDby2 Eq bitline1_3 0 nmos45hp l=0.16um w={prentw}
+M33 sa3 ra0 N016 0 nmos45lp l=0.085um w=0.555um
+Cmbit9 mb3 N028 24fF
+M34 N078 ra3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit10 mbz 0 24fF
+M35 N040 sense_p VDD VDD pmos45lp l=0.27um w=0.22um
+M36 bitline1_3 bitline0_3 N045 VDD pmos45hp l=0.16um w={tw}
+M37 bitline0_3 bitline1_3 N040 VDD pmos45hp l=0.16um w={tw}
+Cmbit11 sa3 0 0.5625fF
+Cmbit12 N061 0 0.5625fF
+R15 sa3 bitline0_3 39
+R16 bitline1_3 N061 39
+R17 0 N028 30000
+R18 N016 mb3 1000
+R19 N061 N078 1000
+R20 N045 N040 25000
+R21 N070 N069 25000
+M38 bitline0_3 EqNot VDDby2 VDD pmos45hp l=0.16um w={pretw}
+M39 VDDby2 EqNot bitline1_3 VDD pmos45hp l=0.16um w={pretw}
+M40 N079 sense_N 0 0 nmos45lp l=0.27um w=0.22um
+M41 bitline1_4 bitline0_4 N080 0 nmos45hp l=0.16um w={ntw}
+M42 bitline0_4 bitline1_4 N079 0 nmos45hp l=0.16um w={ntw}
+M43 bitline1_4 Eq bitline0_4 0 nmos45hp l=0.16um w={prentw}
+M44 bitline0_4 Eq VDDby2 0 nmos45hp l=0.16um w={prentw}
+M45 VDDby2 Eq bitline1_4 0 nmos45hp l=0.16um w={prentw}
+M46 sa4 ra0 N021 0 nmos45lp l=0.085um w=0.555um
+Cmbit13 mb4 N033 24fF
+M47 N088 ra3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit14 mbz 0 24fF
+M48 N046 sense_p VDD VDD pmos45lp l=0.27um w=0.22um
+M49 bitline1_4 bitline0_4 N054 VDD pmos45hp l=0.16um w={tw}
+M50 bitline0_4 bitline1_4 N046 VDD pmos45hp l=0.16um w={tw}
+Cmbit15 sa4 0 0.5625fF
+Cmbit16 N065 0 0.5625fF
+R22 sa4 bitline0_4 39
+R23 bitline1_4 N065 39
+R24 0 N033 30000
+R25 N021 mb4 1000
+R26 N065 N088 1000
+R27 N054 N046 25000
+R28 N080 N079 25000
+M51 bitline0_4 EqNot VDDby2 VDD pmos45hp l=0.16um w={pretw}
+M52 VDDby2 EqNot bitline1_4 VDD pmos45hp l=0.16um w={pretw}
+Cmbit17 charge_pump 0 {cap}
+Cmbit18 charge_pump 0 {cap}
+Cmbit19 charge_pump 0 {cap}
+Cmbit20 charge_pump 0 {cap}
+M53 charge_pump Vcp N009 0 nmos45lp l=0.085um w=0.555um
+M54 N027 sa4 sa4 0 nmos45lp l=0.085um w=0.555um
+M55 N006 K1 N027 0 nmos45lp l=0.085um w=0.555um
+M57 N024 sa3 sa3 0 nmos45hp l=0.16um w={prentw}
+M58 N005 K1 N024 0 nmos45hp l=0.16um w={prentw}
+M60 N026 sa2 sa2 0 nmos45hp l=0.16um w={prentw}
+M61 N008 K1 N026 0 nmos45hp l=0.16um w={prentw}
+M62 N007 K1 N015 0 nmos45hp l=0.16um w={prentw}
+Cmbit22 N006 0 1.17fF
+R30 N006 N005 4
+Cmbit23 N005 0 1.17fF
+R31 N005 N008 4
+Cmbit24 N008 0 1.17fF
+R32 N008 N007 4
+M65 N015 sa1 sa1 0 nmos45lp l=0.085um w=0.555um
+Cmbit21 N009 0 0.5964pF
+R29 N009 N006 2036
+M56 N067 sense_Nb 0 0 nmos45lp l=0.27um w=0.22um
+M59 N047 N035 N068 0 nmos45hp l=0.16um w={ntw}
+M63 N035 N047 N067 0 nmos45hp l=0.16um w={ntw}
+M64 N047 Eqb N035 0 nmos45hp l=0.16um w={prentw}
+M66 N035 Eqb VDDB1by2 0 nmos45hp l=0.16um w={prentw}
+M67 VDDB1by2 Eqb N047 0 nmos45hp l=0.16um w={prentw}
+M68 N010 rb0 N017 0 nmos45lp l=0.085um w=0.555um
+Cmbit25 C1 N029 24fF
+M69 N073 rb3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit26 mbz 0 24fF
+M70 N039 sense_Pb VDD VDD pmos45lp l=0.27um w=0.22um
+M71 N047 N035 N042 VDD pmos45hp l=0.16um w={tw}
+M72 N035 N047 N039 VDD pmos45hp l=0.16um w={tw}
+Cmbit27 N010 0 0.5625fF
+Cmbit28 N059 0 0.5625fF
+R33 N010 N035 39
+R34 N047 N059 39
+R35 0 N029 30000
+R36 N017 C1 1000
+R37 N059 N073 1000
+R38 N042 N039 25000
+R39 N068 N067 25000
+M73 N035 EqbNot VDDB1by2 VDD pmos45hp l=0.16um w={pretw}
+M74 VDDB1by2 EqbNot N047 VDD pmos45hp l=0.16um w={pretw}
+M75 MSB_1 B1 N010 0 nmos45lp l=0.085um w=0.555um
+M76 N071 sense_Nb 0 0 nmos45lp l=0.27um w=0.22um
+M77 N051 N036 N072 0 nmos45hp l=0.16um w={ntw}
+M78 N036 N051 N071 0 nmos45hp l=0.16um w={ntw}
+M79 N051 Eqb N036 0 nmos45hp l=0.16um w={prentw}
+M80 N036 Eqb VDDB2by2 0 nmos45hp l=0.16um w={prentw}
+M81 VDDB2by2 Eqb N051 0 nmos45hp l=0.16um w={prentw}
+M82 N011 rb0 N018 0 nmos45lp l=0.085um w=0.555um
+Cmbit30 C2 N030 24fF
+M83 N081 rb3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit31 mbz 0 24fF
+M84 N041 sense_Pb VDD VDD pmos45lp l=0.27um w=0.22um
+M85 N051 N036 N048 VDD pmos45hp l=0.16um w={tw}
+M86 N036 N051 N041 VDD pmos45hp l=0.16um w={tw}
+Cmbit32 N011 0 0.5625fF
+R43 0 N030 30000
+R44 N018 C2 1000
+R45 N062 N081 1000
+R46 N048 N041 25000
+R47 N072 N071 25000
+M87 N036 EqbNot VDDB2by2 VDD pmos45hp l=0.16um w={pretw}
+M88 VDDB2by2 EqbNot N051 VDD pmos45hp l=0.16um w={pretw}
+M89 MSB_2 B1 N011 0 nmos45lp l=0.085um w=0.555um
+Vra4 K1 0 PWL(39n 0 39.1n 0 55n 2.9V 55.2n 2.9V 65n 2.9V) Rser=16 Cpar=4.68f
+M90 N074 sense_Nb 0 0 nmos45lp l=0.27um w=0.22um
+M91 N055 N037 N075 0 nmos45hp l=0.16um w={ntw}
+M92 N037 N055 N074 0 nmos45hp l=0.16um w={ntw}
+M93 N055 Eqb N037 0 nmos45hp l=0.16um w={prentw}
+M94 N037 Eqb VDDB3by2 0 nmos45hp l=0.16um w={prentw}
+M95 VDDB3by2 Eqb N055 0 nmos45hp l=0.16um w={prentw}
+M96 N013 rb0 N019 0 nmos45lp l=0.085um w=0.555um
+Cmbit35 C3 N031 24fF
+M97 N086 rb3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit36 mbz 0 24fF
+M98 N043 sense_Pb VDD VDD pmos45lp l=0.27um w=0.22um
+M99 N055 N037 N052 VDD pmos45hp l=0.16um w={tw}
+M100 N037 N055 N043 VDD pmos45hp l=0.16um w={tw}
+R51 0 N031 30000
+R52 N019 C3 1000
+R53 N063 N086 1000
+R54 N052 N043 25000
+R55 N075 N074 25000
+M101 N037 EqbNot VDDB3by2 VDD pmos45hp l=0.16um w={pretw}
+M102 VDDB3by2 EqbNot N055 VDD pmos45hp l=0.16um w={pretw}
+M103 MSB_3 B1 N013 0 nmos45lp l=0.085um w=0.555um
+M104 N082 sense_Nb 0 0 nmos45lp l=0.27um w=0.22um
+M105 N058 N038 N083 0 nmos45hp l=0.16um w={ntw}
+M106 N038 N058 N082 0 nmos45hp l=0.16um w={ntw}
+M107 N058 Eqb N038 0 nmos45hp l=0.16um w={prentw}
+M108 N038 Eqb VDDB4by2 0 nmos45hp l=0.16um w={prentw}
+M109 VDDB4by2 Eqb N058 0 nmos45hp l=0.16um w={prentw}
+M110 N014 rb0 N022 0 nmos45lp l=0.085um w=0.555um
+Cmbit40 C4 N034 24fF
+M111 N089 rb3 mbz 0 nmos45lp l=0.085um w=0.055um
+Cmbit41 mbz 0 24fF
+M112 N049 sense_Pb VDD VDD pmos45lp l=0.27um w=0.22um
+M113 N058 N038 N056 VDD pmos45hp l=0.16um w={tw}
+M114 N038 N058 N049 VDD pmos45hp l=0.16um w={tw}
+R59 0 N034 30000
+R60 N022 C4 1000
+R61 N066 N089 1000
+R62 N056 N049 25000
+R63 N083 N082 25000
+M115 N038 EqbNot VDDB4by2 VDD pmos45hp l=0.16um w={pretw}
+M116 VDDB4by2 EqbNot N058 VDD pmos45hp l=0.16um w={pretw}
+M117 MSB_4 B1 N014 0 nmos45lp l=0.085um w=0.555um
+Cmbit45 N060 0 0.5625fF
+Cmbit8 N062 0 0.5625fF
+R41 N051 N062 39
+Cmbit33 N063 0 0.5625fF
+R42 N055 N063 39
+Cmbit37 N066 0 0.5625fF
+R49 N058 N066 39
+R50 N011 N036 39
+R57 N013 N037 39
+R58 N014 N038 39
+Cmbit38 N013 0 0.5625fF
+Cmbit42 N014 0 0.5625fF
+Vra5 B1 0 PWL(46n 0 47n 0 47.01n 2.9V 50n 2.9V 50.01n 0 60n 0 61n 0 96n 0)
+Vsn5 sense_Nb 0 PWL(19n {0} 19.1n {0} 34.9n {0} 35n {vdd} 58.01n {vdd} 82n {vdd} 82.1n {0} 83n {0}) Rser=100 Cpar=10fF
+Vra6 rb0 0 PWL(16.9n 0 17n 0 54n 0 54.01n 2.9V 71n 2.9V 71.01n 0V 86n 0V)
+Vsp2 sense_Pb 0 PWL(19n {vdd} 19.1n {vdd} 34.9n {vdd} 35n {0} 58.01n {0} 82n {0} 82.01n {vdd} 83n {vdd}) Rser=100 Cpar=10fF
+Veq_bnot1 EqbNot 0 PWL(0n 0 34n 0 35n 0 35.01n 1.5V 46n 1.5V 61n 1.5V 68n 1.5V)
+Veq_b1 Eqb 0 PWL(0n 1.5V 34n 1.5V 35n 1.5V 35.01n 0 46n 0 61n 0 68n 0)
+VDDB1 VDDB1by2 0 {vddhalfb1}
+VDDB3\ VDDB3by2 0 {vddhalfb3}
+VDDB2 VDDB2by2 0 {vddhalfb2}
+VDDB4 VDDB4by2 0 {vddhalfb4}
+Vra7 discharge 0 PWL(45n 0 45.01n 2.9V 50n 2.9V 50.01n 0 60n 0 61n 0 96n 0)
+M119 charge_pump discharge N001 0 nmos45lp l=0.085um w=0.555um
+Cmbit46 MSB_4 0 1.17fF
+Cmbit47 MSB_3 0 1.17fF
+Cmbit48 MSB_2 0 1.17fF
+Cmbit49 MSB_1 0 1.17fF
+M120 MSB_1 discharge N002 0 nmos45lp l=0.085um w=0.555um
+M121 MSB_2 discharge N003 0 nmos45lp l=0.085um w=0.555um
+M122 MSB_3 discharge N004 0 nmos45lp l=0.085um w=0.555um
+M124 MSB_4 discharge 0 0 nmos45lp l=0.085um w=0.555um
+R66 MSB_4 N004 4
+R67 MSB_3 N003 4
+R68 MSB_2 N002 4
+R69 MSB_1 N001 4
+Vsn1 sense_N 0 PWL(13n 0 13.01n {vdd} 58.9n {vdd} 59n 0 65n 0) Rser=100 Cpar=10fF
+Vra1 ra0 0 PWL(12n 0 12.1n 2.9 30n 2.9 30.1n 0) Rser=2048 Cpar=0.6pf
+Vsp1 sense_P 0 PWL(13n {vdd} 13.1n 0 58.9n 0 59n {vdd} 65n {vdd}) Rser=100 Cpar=10fF
+Vsn2 Vcp 0 PWL(25n 0 25.01n 2.9 59n 2.9 59.1n 2.9 65n 2.9) Rser=100 Cpar=24fF
+Veq1 EqNot 0 PWL(0n 0 10n 0 10.01n 1.5 59.9n 1.5 60.9n 1.5 61n 1.5 68n 1.5)
+Veq2 Eq 0 PWL(0n 1.5 10n 1.5 10.01n 0 59.9n 0 60.9n 0 61n 0 68n 0)
+VDD1 VDD 0 {vdd}
+VDDby1 VDDby2 0 {vddhalf}
+Vra2 K1 0 PWL(30n 0 30.01n 2.9 50n 2.9 50.01n 0 65n 0) Rser=16 Cpar=4.68f
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\fsupreet\OneDrive - Qualcomm\Documents\LTspiceXVII\lib\cmp\standard.mos
+.include cmosedu_models.txt
+* Bitline to array0
+* Bitline to array1
+.ic v(bitline0)={vddhalf} v(bitline1)={vddhalf} v(mb1)={vdd}v(mb2)={0}v(mb3)={vdd}v(mb4)={vdd}
+.tran 100ns uic
+* Word line in array 0
+* Word line in array 1
+* Simulation Configuations
+.param tw = 2.5um
+.param ntw = 1um
+.param pretw=2.5um
+.param prentw=2.5um
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* voltage charge pump
+.param cap=200fF vdd=1.35V vddhalf=0.675V
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+.param vddhalfb1=0.338976V vddhalfb2=0.22481V vddhalfb3=0.121789V vddhalfb4=0.045993V
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* Bitline to array0
+* Bitline to array1
+* Word line in array 0
+* Word line in array 1
+* Bitline to array1
+.MEAS TRAN bitline2 FIND V(msb_2) AT=47.34ns
+.MEAS TRAN bitline3 FIND V(msb_3) AT=47.34ns
+.MEAS TRAN cpvoltage FIND V(charge_pump) AT=47.34ns
+.MEAS TRAN bitline1 FIND V(msb_1) AT=47.34ns
+.MEAS TRAN bitline4 FIND V(msb_4) AT=47.34ns
+.backanno
+.end
