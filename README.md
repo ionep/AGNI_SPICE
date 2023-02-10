@@ -11,7 +11,9 @@
 | 4-bit combination with ADC for encoded binary.cir  | AGNI schematic SPICE file for N=4  |
 | 4-bit combination with ADC for encoded binary.asc  | AGNI SPICE file in netlist format helpful preprocessing in LTSPICE |
 |4-bit combination with ADC for encoded binary.Net| Netlist format of the AGNI substrate |
+|4-bit combination with ADC for encoded binary.log|SPICE simulation log of the AGNI substrate |
 |sau4v3.raw|RAW format of AGNI substrate utilized during python ltspy3 simulation and graphical interface|
+
 
 
 * For ease of understanding, we have provided two separate video demonstrations of the SPICE simulation for transient analysis and the usage of the file. The first video https://youtu.be/233tJurw-ZA shows the SPICE simulation for transient analysis, and the second video  https://youtu.be/4pZ4Uf7VJMU  shows the usage of the file.
