@@ -25,7 +25,7 @@ In the above table, the .cir file is the schematic file from which you can deriv
 
 * For this, a compatible SPICE simulator will be needed. We have utilized [LTSPICE](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) for this work. However, any other SPICE simulator of your choice can also be used. You may watch [LTSPICE Tutorial](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html) to learn the basics of LTSPICE.
 
-* After successfully installing LTSPICE, follow the steps described in the tutorial video [IMPORTING AGNI FILE INTO LTSPICE](https://youtu.be/4pZ4Uf7VJMU).  In this video, we also illustrated how to open and view the circuit schematic of AGNI substrate in LTSPICE.
+* After successfully installing LTSPICE, follow the steps described in the tutorial video [Importing AGNI Files into LTSPICE](https://youtu.be/4pZ4Uf7VJMU).  In this video, we also illustrated how to open and view the circuit schematic of AGNI substrate in LTSPICE.
 
 **Step 4** : Tranisient analysis in LTSPICE
 
