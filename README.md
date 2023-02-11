@@ -23,17 +23,15 @@ In the above table, the .cir file is the schematic file from which you can deriv
 
 **Step 3** : Import the files into a SPICE simulator
 
-* For this, a compatible SPICE simulator will be needed. We have utilized [LTSPICE](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) for this work. However, any other SPICE simulator of your choice can also be used.
+* For this, a compatible SPICE simulator will be needed. We have utilized [LTSPICE](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) for this work. However, any other SPICE simulator of your choice can also be used. You may watch [LTSPICE Tutorial](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html) to learn the basics of LTSPICE.
 
-**Note:-** Video tutorial on how to use the [LTSPICE Tutorial](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html)
+* After successfully installing LTSPICE, follow the steps described in the tutorial video [IMPORTING AGNI FILE INTO LTSPICE](https://youtu.be/4pZ4Uf7VJMU).  In this video, we also illustrated how to open and view the circuit schematic of AGNI substrate in LTSPICE.
 
-* To import the SPICE file into LTSPICE, please watch the following tutorial [AGNI LTSPICE FILE IMPORTING](https://youtu.be/4pZ4Uf7VJMU). Here in this video we illustrated on how to view the 4-bit combination with ADC for encoded binary.asc (i.e., extension), which is used for the circuit schematic simulation. This simulation mimics the BLgroup size as 4.
+**Step 4** : Tranisient analysis in LTSPICE
 
-**Step 4 :-** Tranisient analysis in LTSPICE
+* For this step, watch [AGNI Transient Analysis](https://youtu.be/233tJurw-ZA), which demonstrates how to configure transient simulations for AGNI sustrate.
 
-* once the Step 3 is completed, please watch [AGNI Transient analysis](https://youtu.be/233tJurw-ZA), which shows the video demonstration on how to configure the SPICE file for the simulation. Along with this in this video we have shown how the circuit are modelled w.r.t the paper.
+* The automation of the SPICE simulations is done using the python package from [LTSPICE Python package](http://www2.ee.unsw.edu.au/~tlehmann/ltspy3.py). For assistance with this package for automated simulations of the AGNI sustrate, please watch this [AGNI Python Automation](https://youtu.be/A-CiMvKVQ_o).
 
-* The automation of the SPICE generation is done using the python package from [LTSPICE Python package](http://www2.ee.unsw.edu.au/~tlehmann/ltspy3.py). To assist you in using this package,please watch this [AGNI Python automation](https://youtu.be/A-CiMvKVQ_o).
-
-**In conclusion, we hope that this bulletin and the accompanying resources will aid you in your SPICE file analysis and simulation process. If you have any questions or concerns, please feel free to reach out to us at supreethms@uky.edu.**
+**If you have any questions or concerns, please feel free to reach out to us at supreethms@uky.edu.**
 
