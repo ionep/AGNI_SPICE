@@ -1,11 +1,14 @@
-# AGNI_SPICE
+# LTSPICE Simulations for AGNI Substrate
 
-The purpose of this GitHub file is to showcase our demonstration of performing the SPICE simulation and model the proposed "**AGNI: In-Situ, Iso-Latency Stochastic-to-Binary Number Conversion for In-DRAM Deep Learning**," which was published in [**ISQUED'23**](). This demonstration was done using the LTSPICE simulator. To successfully simulate our proposed AGNI substrate for N=4, kindly follow the steps below in order.
+This repository cosists of simulation files and tutorial videos for LTSPICE-based simulations of the AGNI substrate [1], which is an in-DRAM computing sustrate for stochastic to binary number conversion.
 
-**Step 1** : Git clone the file to your local machine
+[1] Supreeth Mysore Shivanandamurthy, Sairam Sri Vatsavai, Ishan Thakkar, Sayed Ahmad Salehi, “AGNI: In-Situ, Iso-Latency Stochastic-to-Binary Number Conversion for In-DRAM Deep Learning,” IEEE International Symposium on Quality Electronic Design (ISQED'23), April 2023.
 
-**Step 2** : Once the Step 1 is executed and unzipped the git folder, the following files collateral will be populated in your local machine. The description and list of files binded in this bundle are elaborated the following table. 
-NoteHere in the below files list .cir is the schematic file from which you can dump out the .asc, .Net , .RAW files.
+To successfully simulate our proposed AGNI substrate for N=4, kindly follow the steps below in order.
+
+**Step 1** : Git clone the files to your local machine.
+
+**Step 2** : If needed, unzip the files. The following files should be populated in your local machine. The description and list of files are given in the following table. 
 
 
 | **Filename**  | **Description** |
@@ -16,11 +19,11 @@ NoteHere in the below files list .cir is the schematic file from which you can d
 |4-bit combination with ADC for encoded binary.log|SPICE simulation log of the AGNI substrate |
 |sau4v3.raw|RAW format of AGNI substrate utilized during python ltspy3 simulation and graph representation|
 
-**Step 3** :- Importing of AGNI SPICE simulation
+In the above table, the .cir file is the schematic file from which you can derive the .asc, .Net, and .RAW files.
 
-**SPICE File Analysis and Simulation**
+**Step 3** : Import the files into a SPICE simulator
 
-* Once the step 2 is complete, you will need a compatible SPICE simulator. Our study utilized the [LTSPICE](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) for analyzing the SPICE file. However, any SPICE simulator of your choice can be used.
+* For this, a compatible SPICE simulator will be needed. We have utilized [LTSPICE](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) for this work. However, any other SPICE simulator of your choice can also be used.
 
 **Note:-** Video tutorial on how to use the [LTSPICE Tutorial](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html)
 
